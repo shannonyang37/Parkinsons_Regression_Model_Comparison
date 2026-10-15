@@ -64,6 +64,7 @@ The subject identifier is excluded because it is not a meaningful measurement of
 `motor_UPDRS` is excluded because it represents a component of the total score and could introduce target leakage;
 `test_time` is excluded because this analysis focuses on predictions based on demographic and acoustic features rather than elapsed time. 
 Hence, we will have **18 predictors**, with the target `total_UPDRS`.
+
 ---
 ### Methodology
 
