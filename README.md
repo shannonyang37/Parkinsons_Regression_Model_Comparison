@@ -25,6 +25,7 @@ The target variable is `total_UPDRS`, a score used to assess the severity of Par
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
+---
 ### Objectives
 
 - Explore the relationships between demographic and acoustic features and Parkinson’s disease severity.
@@ -64,6 +65,7 @@ The subject identifier is excluded because it is not a meaningful measurement of
 `motor_UPDRS` is excluded because it represents a component of the total score and could introduce target leakage;
 `test_time` is excluded because this analysis focuses on predictions based on demographic and acoustic features rather than elapsed time. 
 Hence, we will have **18 predictors**, with the target `total_UPDRS`.
+
 ---
 ### Methodology
 
@@ -106,7 +108,7 @@ There are several **limitations** to this analysis:
 
 Several **improvements** could be explored to strengthen the predictive performance, generalisability, and interpretability of the analysis:
 
-- Incorporate `test_time` to investigate how Parkinson’s disease severity changes over time, rather than treating each recording as an independent observation. Evaluate models using patient-wise data splitting to prevent recordings from the same individual appearing in both training and testing sets, providing a more reliable assessment of generalisation to unseen patients.
+- Incorporate `subject#` and `test_time` to investigate how Parkinson’s disease severity changes over time at patient level, rather than treating each recording as an independent observation. Evaluate models using patient-wise data splitting to prevent recordings from the same individual appearing in both training and testing sets, providing a more reliable assessment of generalisation to unseen patients.
 
 - Evaluate other nonlinear regression approaches, such as Gradient Boosting, XGBoost, or Support Vector Regression (SVR), to investigate whether they can improve predictive performance compared with Linear Regression, Lasso Regression, and Random Forest Regression.
 
