@@ -112,7 +112,7 @@ Several **improvements** could be explored to strengthen the predictive performa
 
 - Evaluate other nonlinear regression approaches, such as Gradient Boosting, XGBoost, or Support Vector Regression (SVR), to investigate whether they can improve predictive performance compared with Linear Regression, Lasso Regression, and Random Forest Regression.
 
-- Apply systematic hyperparameter tuning using cross-validation to identify suitable model configurations and potentially improve predictive performance.
+- Expand hyperparameter tuning by using exhaustive GridSearchCV or Bayesian optimisation over a wider parameter space, alongside permutation importance or SHAP values to better interpret nonlinear feature contributions.
 
 ---
 ### Reflection on FAIR Principles
@@ -178,8 +178,7 @@ git clone https://github.com/shannonyang37/Parkinsons_Regression_Model_Compariso
 --- 
 ### References
 
-1. Tsanas, A., Little, M., McSharry, P., & Ramig, L. (2009). Accurate telemonitoring of Parkinson’s disease progression by noninvasive speech tests. Nature Precedings, 57(4), 884–893. https://doi.org/10.1038/npre.2009.3920.1
-
+1. Tsanas, A., Little, M.A., McSharry, P.E., & Ramig, L.O. (2009). Accurate Telemonitoring of Parkinson's Disease Progression by Noninvasive Speech Tests. IEEE Transactions on Biomedical Engineering, 57, 884-893. https://doi.org/10.1109/TBME.2009.2036000.
 2. Tsanas, A. & Little, M. (2009). Parkinsons Telemonitoring [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5ZS3N.
 
 ---
