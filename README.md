@@ -25,6 +25,7 @@ The target variable is `total_UPDRS`, a score used to assess the severity of Par
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
+---
 ### Objectives
 
 - Explore the relationships between demographic and acoustic features and Parkinson’s disease severity.
