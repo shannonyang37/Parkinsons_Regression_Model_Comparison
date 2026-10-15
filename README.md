@@ -146,9 +146,10 @@ Parkinsons_Regression_Model_Comparison/
 │
 ├── data
 │     └── parkinsons_updrs.data
+├── LICENSE
+├── Parkinsons_Regression_Model_Comparison.ipynb
 ├── README.md
-├── requirements.txt
-└── Parkinsons_Regression_Model_Comparison.ipynb
+└── requirements.txt
 ```
 
 ---
