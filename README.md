@@ -146,9 +146,10 @@ Parkinsons_Regression_Model_Comparison/
 │
 ├── data
 │     └── parkinsons_updrs.data
+├── LICENSE
+├── Parkinsons_Regression_Model_Comparison.ipynb
 ├── README.md
-├── requirements.txt
-└── Parkinsons_Regression_Model_Comparison.ipynb
+└── requirements.txt
 ```
 
 ---
@@ -156,7 +157,7 @@ Parkinsons_Regression_Model_Comparison/
 
 1. Clone or download this repository.
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/shannonyang37/Parkinsons_Regression_Model_Comparison
 ```
 
 2. Install Python and Jupyter Notebook.
