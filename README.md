@@ -5,7 +5,7 @@
 ---
 ### Overview
 
-**Parkinson's disease (PD)** is a progressive neurodegenerative disorder that causes a person to experience movement-related symptoms, such as tremor, slowness of movement and balance problems, as well as non-motor symptoms like hallucinations, depression and loss of sense of smell. This project focuses on **evaluating the predictive performance of different regression models for estimating Parkinson's disease severity using demographic and voice measurement features.** Linear regression and nonlinear models are compared using test-set performance metrics.
+**Parkinson's disease (PD)** is a progressive neurodegenerative disorder that causes a person to experience movement-related symptoms, such as tremor, slowness of movement and voice and speech problems, as well as non-motor symptoms like hallucinations, depression and loss of sense of smell. This project focuses on **evaluating the predictive performance of different regression models for estimating Parkinson's disease severity using demographic and voice measurement features.** Linear regression and nonlinear models are compared using test-set performance metrics.
 
 The target variable is `total_UPDRS`, a score used to assess the severity of Parkinson’s disease symptoms.
 
