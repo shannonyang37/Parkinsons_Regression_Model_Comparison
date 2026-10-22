@@ -5,9 +5,11 @@
 ---
 ### Overview
 
-**Parkinson's disease (PD)** is a progressive neurodegenerative disorder that causes a person to experience movement-related symptoms, such as tremor, slowness of movement and balance problems, as well as non-motor symptoms like hallucinations, depression and loss of sense of smell. This project focuses on **evaluating the predictive performance of different regression models for estimating Parkinson's disease severity using demographic and voice measurement features.** Linear regression and nonlinear models are compared using test-set performance metrics.
+**Parkinson's disease (PD)** is a progressive neurodegenerative disorder that causes a person to experience motor-related symptoms, such as tremor, slowness of movement, balance problems, and voice and speech problems, as well as non-motor symptoms like hallucinations, depression and loss of sense of smell.
 
-The target variable is `total_UPDRS`, a score used to assess the severity of Parkinson’s disease symptoms.
+The assessment of Parkinson’s disease severity using the traditional Unified Parkinson’s Disease Rating Scale (total_UPDRS) is a comprehensive, multi-part, and time-intensive clinical process. Because evaluations require in-person observation across multiple behavioral and motor domains, frequent tracking is challenging and imposes a heavy burden on both clinicians and patients.
+
+This project focuses on utilizing regression models to **estimate Parkinson's disease severity based on demographic and voice measurement features.** We will evaluate the predictive performance of **three different regression models** on the total_UPDRS score. Specifically, linear regression and nonlinear models are compared using test-set performance metrics.
 
 ---
 ### Table of Contents
@@ -178,8 +180,8 @@ git clone https://github.com/shannonyang37/Parkinsons_Regression_Model_Compariso
 --- 
 ### References
 
-1. Tsanas, A., Little, M.A., McSharry, P.E., & Ramig, L.O. (2009). Accurate Telemonitoring of Parkinson's Disease Progression by Noninvasive Speech Tests. IEEE Transactions on Biomedical Engineering, 57, 884-893. https://doi.org/10.1109/TBME.2009.2036000.
-2. Tsanas, A. & Little, M. (2009). Parkinsons Telemonitoring [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5ZS3N.
+1. Tsanas, A., Little, M.A., McSharry, P.E., & Ramig, L.O. (2009). Accurate Telemonitoring of Parkinson's Disease Progression by Noninvasive Speech Tests. _IEEE Transactions on Biomedical Engineering, 57_, 884-893. https://doi.org/10.1109/TBME.2009.2036000.
+2. Tsanas, A. & Little, M. (2009). _Parkinsons Telemonitoring_ [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5ZS3N.
 
 ---
 ### Acknowledgements
